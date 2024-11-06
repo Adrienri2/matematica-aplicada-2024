@@ -1,0 +1,6 @@
+pandas
+numpy
+nltk
+scikit-fuzzy
+scipy
+packaging

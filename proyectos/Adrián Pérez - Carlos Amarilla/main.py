@@ -19,8 +19,10 @@ print("Versión de NLTK:", nltk.__version__)
 # Descargar recursos de NLTK necesarios si no están disponibles
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('punkt_tab')
 nltk.download('sentiwordnet')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
 
 def load_and_preprocess():
     """
